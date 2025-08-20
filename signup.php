@@ -11,7 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 $name = fliterRequest("name");
 $email = fliterRequest("email");
 $phone = fliterRequest("phoneNumber");
-$passwordRaw = $_POST['password'] ?? ''; // Don't filter password with fliterRequest (strip_tags?), because hashing it directly is safer
+$passwordRaw = $_POST['password'] ?? '';
 
 if (!$name || !$email || !$phone || !$passwordRaw) {
     die("All fields are required");
