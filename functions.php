@@ -3,9 +3,9 @@ function sendEmail($to, $toname, $title, $body, $passcode, $succesMessaeg = "sig
 {
 
     // --- Email.js API Credentials (REPLACE WITH YOURS) ---
-    $service_id = 'service_wwzj1lc'; 
-    $template_id = 'template_dsupjr8'; 
-    $public_key = 'jSNlWBJZsQs-jNNCI'; 
+    $service_id = ''; 
+    $template_id = ''; 
+    $public_key = ''; 
     $private_key = ''; 
 
     // --- Email Data (REPLACE WITH YOUR DYNAMIC DATA) ---
