@@ -1,9 +1,6 @@
 <?php
 define("MB", 1048576);
 
-// It's important to note that this function is not sufficient to prevent SQL injection.
-// Always use prepared statements with parameterized queries to prevent SQL injection vulnerabilities.
-
 
 function UploadFileUpdateInfo($RequestImage, $Type)
 {
