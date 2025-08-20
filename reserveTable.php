@@ -3,7 +3,7 @@ include "functions.php";
 include "filterchar.php";
 include 'phpconnect.php';
 
-$resto_id = fliterRequest("resto_id");  // You must pass this to identify which record to update
+$resto_id = fliterRequest("resto_id"); 
 $tabelsReserved = fliterRequest("tabelsReserved");
 
 
