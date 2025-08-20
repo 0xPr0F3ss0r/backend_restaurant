@@ -15,4 +15,3 @@ if ($count > 0) {
 } else {
     echo json_encode(array("status" => "fail", "message" => "Failed to update password"));
 }
-//result($count, $msg = 'password updated', $error = 'password not updated');
